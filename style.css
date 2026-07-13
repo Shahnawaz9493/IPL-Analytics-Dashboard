@@ -1,0 +1,172 @@
+/* -------------------------------
+   Google Font
+--------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: "Poppins", sans-serif;
+}
+
+/* -------------------------------
+   Main App
+--------------------------------*/
+
+.stApp {
+    background: #0b1220;
+    color: white;
+}
+
+/* -------------------------------
+   Sidebar
+--------------------------------*/
+
+section[data-testid="stSidebar"] {
+    background: #111827;
+    border-right: 1px solid #1f2937;
+}
+
+/* -------------------------------
+   Titles
+--------------------------------*/
+
+h1 {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: #d1d5db;
+}
+
+/* -------------------------------
+   Metric Cards
+--------------------------------*/
+
+.metric-card {
+    background: linear-gradient(135deg, #1e293b, #111827);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.30);
+    transition: 0.3s;
+    border: 1px solid #374151;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+}
+
+/* -------------------------------
+   Buttons
+--------------------------------*/
+
+.stButton>button {
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.stButton>button:hover {
+    background: #1d4ed8;
+}
+
+/* -------------------------------
+   DataFrames
+--------------------------------*/
+
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* -------------------------------
+   Plotly Charts
+--------------------------------*/
+
+.js-plotly-plot {
+    border-radius: 15px;
+}
+
+/* -------------------------------
+   Footer
+--------------------------------*/
+
+.footer {
+    text-align: center;
+    color: #9ca3af;
+    padding: 20px;
+    margin-top: 30px;
+}
+/* =====================================================
+ KPI Cards
+===================================================== */
+
+.metric-card {
+
+    background: linear-gradient(
+        135deg,
+        rgba(30,41,59,.95),
+        rgba(15,23,42,.95)
+    );
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.35);
+
+    min-height:170px;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 20px 35px rgba(0,0,0,.45);
+
+}
+
+.metric-icon{
+
+    font-size:42px;
+
+}
+
+.metric-value{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:#FFD700;
+
+    margin-top:10px;
+
+}
+
+.metric-title{
+
+    margin-top:12px;
+
+    color:#cbd5e1;
+
+    font-size:17px;
+
+}
